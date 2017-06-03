@@ -1,0 +1,29 @@
+{
+  "name": "@finpo/fuse-box",
+  "version": "1.0.0",
+  "main": "fuse.js",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-latest": "^6.24.1",
+    "debug": "^2.6.8",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0",
+    "fuse-box": "^2.0.12",
+    "fuse-box-eslint-plugin": "^0.0.3",
+    "fusebox-closure-plugin": "^0.0.9",
+    "koa": "^2.2.0",
+    "koa-router": "next"
+  },
+  "scripts": {
+    "dev": "node fuse.js",
+    "build": "node fuse.js build",
+    "start": "DEBUG=finpo:* node dist/index.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ausir@finpo.com.tw",
+  "license": "ISC",
+  "description": ""
+}
