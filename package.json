@@ -3,18 +3,18 @@
   "version": "1.0.0",
   "main": "fuse.js",
   "dependencies": {
-    "babel-core": "^6.24.1",
+    "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-preset-latest": "^6.24.1",
-    "debug": "^2.6.8",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb-base": "^11.2.0",
+    "debug": "^3.0.1",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.2",
     "eslint-plugin-import": "^2.3.0",
-    "fuse-box": "^2.0.12",
+    "fuse-box": "^2.2.2",
     "fuse-box-eslint-plugin": "^0.0.3",
     "fusebox-closure-plugin": "^0.0.9",
     "koa": "^2.2.0",
-    "koa-router": "next"
+    "koa-router": "^7.2.1"
   },
   "scripts": {
     "dev": "node fuse.js",
