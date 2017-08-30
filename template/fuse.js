@@ -21,7 +21,7 @@ const fuse = fsbx.FuseBox.init({
   ],
 });
 
-const app = fuse.bundle('index').instructions('> index.js');
+const app = fuse.bundle('index').instructions('> [index.js]');
 if (!prodcution) app.watch().completed(proc => proc.start());
 
 fuse.run();
