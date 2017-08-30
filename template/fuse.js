@@ -14,7 +14,7 @@ const fuse = fsbx.FuseBox.init({
     [
       eslinter(),
       fsbx.BabelPlugin({
-        presets: ['latest'],
+        presets: ['es2015'],
       }),
     ],
     !!prodcution && closure({ compilationLevel: 'ADVANCED', languageOut: 'ES6' }),
